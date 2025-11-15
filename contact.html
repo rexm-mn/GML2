@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Global MindLens</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <div class="page-wrapper">
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="section-header fade-in-up">
+            <div class="section-kicker">Contact</div>
+            <h1 class="section-title">Get in Touch</h1>
+            <p class="section-description">
+              Reach out to Global MindLens for collaboration, consultancy,
+              research partnerships or capacity-building support.
+            </p>
+          </div>
+
+          <div class="contact-layout fade-in-up delay-1">
+            <div class="contact-card">
+              <h2 class="card-title">Send Us a Message</h2>
+              <form id="contactForm">
+                <div class="form-field">
+                  <label class="form-label" for="name">Full Name</label>
+                  <input class="form-input" type="text" id="name" name="name" required />
+                </div>
+
+                <div class="form-field">
+                  <label class="form-label" for="email">Email</label>
+                  <input class="form-input" type="email" id="email" name="email" required />
+                </div>
+
+                <div class="form-field">
+                  <label class="form-label" for="subject">Subject</label>
+                  <input class="form-input" type="text" id="subject" name="subject" />
+                </div>
+
+                <div class="form-field">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea class="form-textarea" id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </form>
+              
+            </div>
+
+            <div class="contact-card">
+              <h2 class="card-title">Office &amp; Location</h2>
+              <p class="card-body">
+                <strong>Global MindLens (GML)</strong><br />
+                <!-- Add your real office address here -->
+                Dhaka, Bangladesh
+              </p>
+              <p class="card-body">
+                Email: info@example.com<br />
+                Phone: +880 0000 000000
+              </p>
+
+              <div class="map-wrapper">
+                <!-- Replace the src with your actual office location embed -->
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.90363622558!2d90.39146351544298!3d23.75087639459039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b0e3e8d8a5%3A0xdda0b7a5f6e9a9fb!2sDhaka!5e0!3m2!1sen!2sbd!4v1700000000000"
+                  width="100%"
+                  height="260"
+                  style="border:0;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="include.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
